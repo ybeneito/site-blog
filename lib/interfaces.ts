@@ -12,3 +12,11 @@ export interface Article {
     content: any
 
 }
+
+export interface Project {
+    title: string;
+    description: string;
+    img: string;
+    link?: string;
+    techs?: string[];
+}
