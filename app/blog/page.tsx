@@ -20,7 +20,7 @@ async function GetData() {
 export default async function page() {
 const data: ShortArticle[] = await GetData();
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 mt-4 gap-5">
+    <div className="grid grid-cols-1 md:grid-cols-2 my-40 gap-5">
         {data.map((article: ShortArticle, idx) => (
             <Card key={idx}>
                 <Image 

@@ -18,7 +18,7 @@ async function getData(slug: string) {
 export default async function Article({params} : {params:{slug: string}}) {
     const data: Article = await getData(params.slug)
     return (
-        <div className="mt-8 flex flex-col items-center">
+        <div className="my-40 flex flex-col items-center">
             <h1 className="mt-2 text-3xl text-center leading-8 font-bold">{data.title}</h1>
             <Image 
                 src={urlFor(data.titleImage).url()}  
