@@ -1,4 +1,4 @@
-import { Article } from "@/lib/interfaces"
+import type { Article } from "@/lib/interfaces"
 import { client, urlFor } from "@/lib/sanity"
 import { PortableText } from "next-sanity";
 import Image from "next/image";
