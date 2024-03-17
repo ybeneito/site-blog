@@ -17,7 +17,7 @@ export default function Career() {
                 Avec une <span className="text-primary">envie</span> de plus de connaissances, j'ai pu valider le titre de <span className="text-primary">Développeur Web/Mobile</span> au centre de formation <span className="text-primary">Beweb Montpellier</span>. Cette année m'a conforté dans cette envie de reconvertion (résolution de problèmes technique, travail en équipe, découvertes quotidiennes ...). La période de stage en entreprise de mois au sein de <span className="text-primary"> Majelis Pignan</span> m'a aussi beaucoup apporté.
             </p>
             <p className="mt-10 text-neutral-500 my-2 text-lg text-start">
-                Afin de prendre plus <span className="text-primary">d'expérience</span> , j'ai proposé à cette entreprise de signer un contrat d'alternance pour 1 an, toujours avec Beweb j'ai pu valider le titre de <span className="text-primary">Concepteur Développeur d'Application</span>. Durant cette années j'ai pu mettre en place un CI/CD en autonnomie pour l'entreprise et pu porter la casquette de chef de projet pendant 2 mois avec une équipe d'étudiants développeurs web/mobile en formation.
+                Afin de prendre plus <span className="text-primary">d'expérience</span> , j'ai proposé à cette entreprise de signer un contrat d'alternance pour 1 an, toujours avec Beweb j'ai pu valider le titre de <span className="text-primary">Concepteur Développeur d'Application</span>. Durant cette année j'ai pu entre autre mettre en place un CI/CD en autonnomie pour l'entreprise et pu porter la casquette de chef de projet pendant 2 mois avec une équipe d'étudiants développeurs web/mobile en formation.
             </p>
         </div>
     )
