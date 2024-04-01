@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inclusive_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/Navbar";
 import { ThemeProvider } from "@/components/Theme-provider";
 import Footer from "@/components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const font = Inclusive_Sans({ subsets: ["latin"], weight:"400" });
 
 export const metadata: Metadata = {
   title: "YohanB",
@@ -22,7 +22,7 @@ export default function RootLayout({
       <head>
       <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" /> 
       </head>
-      <body className={inter.className}>
+      <body className={font.className}>
         <ThemeProvider
          attribute="class"
          defaultTheme="system"
