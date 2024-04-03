@@ -4,7 +4,7 @@ export const ProjectList: Project[] = [
     {
         title: "GenerAItor",
         description: "Un générateur de composant/page HTML avec Typescript, Nodejs, Express et OPENAI. Ce projet est un projet personnel pour m'entraîner à utiliser ces technologies.",
-        img: "generaitor",
+        img: "generAItor",
         techs: ["devicon-typescript-plain", "devicon-nodejs-plain", "devicon-express-original"],
         link: "https://generaitor.vercel.app/"
     },
