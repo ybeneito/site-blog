@@ -2,6 +2,13 @@ import { Project } from "@/lib/interfaces"
 
 export const ProjectList: Project[] = [
     {
+        title: "GenerAItor",
+        description: "Un générateur de composant/page HTML avec Typescript, Nodejs, Express et OPENAI. Ce projet est un projet personnel pour m'entraîner à utiliser ces technologies.",
+        img: "generaitor",
+        techs: ["devicon-typescript-plain", "devicon-nodejs-plain", "devicon-express-original"],
+        link: "https://generaitor.vercel.app/"
+    },
+    {
         title: "Pastèques-Game",
         description: "Largement inspiré du jeu suika game, développé en JS, seul sur mon temps libre et aidé pour les dessins.",
         img: "suika",
