@@ -9,8 +9,8 @@ export default function Navbar() {
             <Link href={"/"} className="font-bold text-3xl text-primary active:border-b-2">
                 YohanB
             </Link>
-            <Link href={"/blog"} className="font-bold text-3xl active:border-b-2">
-                Mon blog
+            <Link href={"/#projects"} className="font-bold text-3xl active:border-b-2">
+                Mes projets
             </Link>
             <Link href={"/cv"} className="font-bold text-3xl active:border-b-2">
                 Mon Cv

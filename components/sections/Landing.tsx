@@ -20,7 +20,7 @@ export default function Landing() {
           <Career />
         </section>
         <hr />
-        <section className="animate-slidein [--slidein-delay:700ms] opacity-0 my-40">
+        <section id="projects" className="animate-slidein [--slidein-delay:700ms] opacity-0 my-40">
           <Projects />
         </section>
         <hr />
